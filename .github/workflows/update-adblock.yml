@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT }}  # 使用 PAT 才能 push
+          token: ${{ secrets.ADBLOCK }}  # 使用 ADBLOCK 才能 push
 
       - name: Set git identity
         run: |
