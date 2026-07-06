@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 下载来源
-URL="https://https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasq.txt"
+URL="https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasq.txt"
 LOG_FILE="./adblockfilters-modified-curl.log"
 OUTPUT_DIR="./rule_provider"
 TEMP_FILE="$OUTPUT_DIR/adblock.yaml"
